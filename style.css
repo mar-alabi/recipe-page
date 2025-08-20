@@ -20,7 +20,7 @@ html {
 .container {
   background-color: var(--White);
   width: 50%;
-  margin: 0 auto;
+  margin: 2em auto;
   padding: 1.5em;
   color: var(--Stone900);
   border-radius: 30px;
