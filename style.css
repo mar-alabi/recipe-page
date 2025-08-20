@@ -17,18 +17,20 @@ html {
   font-family: "Outfit", sans-serif;
   background-color: var(--Stone100);
 }
-body {
+.container {
   background-color: var(--White);
-  width: 600px;
-  margin: 20px auto;
-  padding: 50px;
+  width: 50%;
+  margin: 0 auto;
+  padding: 1.5em;
   color: var(--Stone900);
   border-radius: 30px;
   font-size: 16px;
 }
 img {
-  width: 600px;
+  display: block;
+  width: 95%;
   border-radius: 20px;
+  margin: 0 auto;
 }
 .attribution {
   font-size: 11px;
@@ -65,7 +67,7 @@ h1 {
 table {
   display: table;
   border-collapse: collapse;
-  width: 600px;
+  width: 95%;
 }
 td {
   padding: 10px 20px;
