@@ -14,8 +14,12 @@
   --Rose50: hsl(330, 100%, 98%);
 }
 html {
+  box-sizing: border-box;
   font-family: "Outfit", sans-serif;
   background-color: var(--Stone100);
+}
+*, *::after, *::before{
+  box-sizing: inherit;
 }
 .container {
   background-color: var(--White);
